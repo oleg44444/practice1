@@ -5,50 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Barbershop</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./">
+    <header class="header">
+      <nav class="header-naigation">
+        <a href="./" class="header-logo">
           <img src="./img/Logo.svg" alt="Logo site" width="69" height="56" />
         </a>
-        <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services and prices</a></li>
-          <li><a href="#">Barbers</a></li>
-          <li><a href="#">Contacts</a></li>
+        <ul class="header-list list">
+          <li class="header-item"><a href="#" class="header-link">About</a></li>
+          <li class="header-item">
+            <a href="#" class="header-link">Services and prices</a>
+          </li>
+          <li class="header-item">
+            <a href="#" class="header-link">Barbers</a>
+          </li>
+          <li class="header-item">
+            <a href="#" class="header-link">Contacts</a>
+          </li>
         </ul>
       </nav>
-      <a href="tel:+380441111111">+38 044 111 11 11</a>
-      <button type="button">Online-booking</button>
+      <a href="tel:+380441111111" class="header-tel">+38 044 111 11 11</a>
+      <button type="button" class="header-btn">Online-booking</button>
     </header>
     <main>
       <!--Hero section-->
-      <section>
-        <ul>
-          <li>
-            <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+      <section class="hero">
+        <ul class="hero-list">
+          <li class="hero-item">
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              class="hero-link link"
               >Instagram</a
             >
           </li>
           <li>
-            <a href="#" target="_blank" rel="noopener noreferrer nofollow"
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              class="hero-link link"
               >YouTube</a
             >
           </li>
         </ul>
-        <p>A hair salon for men in Kyiv</p>
-        <h1>BarberShop</h1>
-        <p>
+        <p class="hero-subtitle">A hair salon for men in Kyiv</p>
+        <h1 class="hero-title">BarberShop</h1>
+        <p class="hero-description">
           We are experts in trendy men’s haircuts. We work quickly, carefully
           and with style.
         </p>
       </section>
       <!--/Hero section-->
       <!--About-->
-      <section>
-        <ul>
-          <li>
+      <section class="about">
+        <ul class="about-list">
+          <li class="about-item">
             <img
               src="./img/about/about-img1.jpg"
               alt="Barbershop"
@@ -56,18 +78,18 @@
               height="445"
             />
           </li>
-          <li>
+          <li class="about-item">
             <img
               src="./img/about/about-img2.jpg"
               alt="Barbershop"
               width="270"
               height="445"
             />
-          </li>
+          </li class="about-item">
         </ul>
-        <p>About</p>
-        <h2>Best Barbershop in your city</h2>
-        <p>
+        <p class="abour-subtitle">About</p>
+        <h2 class="about-title">Best Barbershop in your city</h2>
+        <p class="about-description">
           <span
             >If you want to add more confidence to your image, you should
             definitely visit us.</span
@@ -78,7 +100,7 @@
           same wave" with clients. Therefore, we are always ready to improve
           everyone who comes to us!
         </p>
-        <button type="button">ONLINE-BOOKING</button>
+        <button type="button" class="about-btn">ONLINE-BOOKING</button>
       </section>
 
       <!--/About-->
@@ -128,16 +150,16 @@
       </section>
       <!--/services-->
       <!--section feature-->
-      <section>
-        <ul>
-          <li><span>600</span><span>Satisfied customers per day</span></li>
-          <li><span>50</span><span>Awards for excellent service</span></li>
-          <li><span>20</span><span>Kyiv’s best barbers</span></li>
-          <li><span>100</span><span>Gifts for regular customers</span></li>
+      <section class="bennefits">
+        <ul class="bennefits-list">
+          <li class="bennefits-item"><span>600</span><span>Satisfied customers per day</span></li>
+          <li class="bennefits-item"><span>50</span><span>Awards for excellent service</span></li>
+          <li class="bennefits-item"><span>20</span><span>Kyiv’s best barbers</span></li>
+          <li class="bennefits-item"><span>100</span><span>Gifts for regular customers</span></li>
         </ul>
-        <p>Old traditional school</p>
-        <h2>¿Why people come to us?</h2>
-        <p>
+        <p class="bennefits-subtitle">Old traditional school</p>
+        <h2 class="bennefits-title">¿Why people come to us?</h2>
+        <p class="bennefits-description">
           Only good things are said about us. But it's better to see and feel 1
           time than read 10 times.
         </p>
