@@ -4,6 +4,13 @@ body {
 .list {
   list-style: none;
 }
+.btn {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
 .header {
   background-color: gray;
 }
@@ -34,14 +41,6 @@ body {
   color: #ffffff;
 }
 .header-btn {
-  font-family: "Open Sans", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 1.33;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
-
   color: #ffffff;
 }
 /*------- Hero ---- */
@@ -97,7 +96,7 @@ body {
 }
 .about-item {
 }
-.abour-subtitle {
+.about-subtitle {
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
@@ -112,13 +111,12 @@ body {
   font-size: 42px;
   line-height: 1.17;
   letter-spacing: 0.05em;
-
   color: #303030;
 }
 .about-description {
   font-size: 14px;
+  font-weight: 400;
   line-height: 1.86;
-
   letter-spacing: 0.02em;
 
   color: #555555;
@@ -131,17 +129,74 @@ body {
   color: #555555;
 }
 .about-btn {
+  color: #303030;
 }
+
+/* services */
+.section {
+}
+.description {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.6);
+}
+.section-title {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+.section-list p {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+.section-btn {
+  color: #ffffff;
+}
+
 /* -----Bennefits------ */
 .bennefits {
 }
-.bennefites-list {
+.span-numbers {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.36;
+  letter-spacing: 0.05em;
+  color: #303030;
+}
+.span-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  color: #303030;
 }
 .bennefits-item {
 }
 .bennefits-subtitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: #303030;
 }
 .bennefits-title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+  color: #303030;
 }
 .bennefits-description {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #555555;
 }
