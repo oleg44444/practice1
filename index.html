@@ -5,17 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Barbershop</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
       rel="stylesheet"
     />
-    
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
+      <div class="container">
       <nav class="header-naigation">
         <a href="./" class="header-logo">
           <img src="./img/Logo.svg" alt="Logo site" width="69" height="56" />
@@ -33,12 +34,15 @@
           </li>
         </ul>
       </nav>
+   
       <a href="tel:+380441111111" class="header-tel">+38 044 111 11 11</a>
       <button type="button" class="header-btn btn">Online-booking</button>
+    </div>
     </header>
     <main>
       <!--Hero section-->
       <section class="hero">
+        <div class="container">
         <ul class="hero-list list">
           <li class="hero-item">
             <a
@@ -65,42 +69,45 @@
           We are experts in trendy men’s haircuts. We work quickly, carefully
           and with style.
         </p>
+        </div>
       </section>
       <!--/Hero section-->
       <!--About-->
       <section class="about">
-        <ul class="about-list list">
-          <li class="about-item">
-            <img
-              src="./img/about/about-img1.jpg"
-              alt="Barbershop"
-              width="270"
-              height="445"
-            />
-          </li>
-          <li class="about-item">
-            <img
-              src="./img/about/about-img2.jpg"
-              alt="Barbershop"
-              width="270"
-              height="445"
-            />
-          </li class="about-item">
-        </ul>
-        <p class="about-subtitle">About</p>
-        <h2 class="about-title">Best Barbershop in your city</h2>
-        <p class="about-description">
-          <span
-            >If you want to add more confidence to your image, you should
-            definitely visit us.</span
-          >
-          We are a team that never stops at what has been achieved and are
-          thirsty for changes. And when you fall into the hands of our master,
-          you will never be the same again. We are a team that is always "on the
-          same wave" with clients. Therefore, we are always ready to improve
-          everyone who comes to us!
-        </p>
-        <button type="button" class="about-btn btn">ONLINE-BOOKING</button>
+        <div class="container">
+          <ul class="about-list list">
+            <li class="about-item">
+              <img
+                src="./img/about/about-img1.jpg"
+                alt="Barbershop"
+                width="270"
+                height="445"
+              />
+            </li>
+            <li class="about-item">
+              <img
+                src="./img/about/about-img2.jpg"
+                alt="Barbershop"
+                width="270"
+                height="445"
+              />
+            </li class="about-item">
+          </ul>
+          <p class="about-subtitle">About</p>
+          <h2 class="about-title">Best Barbershop in your city</h2>
+          <p class="about-description">
+            <span
+              >If you want to add more confidence to your image, you should
+              definitely visit us.</span
+            >
+            We are a team that never stops at what has been achieved and are
+            thirsty for changes. And when you fall into the hands of our master,
+            you will never be the same again. We are a team that is always "on the
+            same wave" with clients. Therefore, we are always ready to improve
+            everyone who comes to us!
+          </p>
+          <button type="button" class="about-btn btn">ONLINE-BOOKING</button>
+        </div >
       </section>
 
     
@@ -167,11 +174,11 @@
 
 
       <!--section Team-->
-      <section>
-        <p>For true enjoyers of the atmosphere</p>
-        <h2>Our barbers</h2>
-        <ul>
-          <li>
+      <section class="team">
+        <p class="team-description">For true enjoyers of the atmosphere</p>
+        <h2 class="team-title">Our barbers</h2>
+        <ul class="team-list list">
+          <li class="team-item">
             <img
               src="./img/team/team-1.jpg"
               alt="barbers work"
@@ -181,7 +188,7 @@
             <h3>John Smith</h3>
             <p>Extreme Barber</p>
           </li>
-          <li>
+          <li class="team-item">
             <img
               src="./img/team/team-2.jpg"
               alt="barbers work"
@@ -191,7 +198,7 @@
             <h3>Michele Doe</h3>
             <p>Extreme Barber</p>
           </li>
-          <li>
+          <li class="team-item">
             <img
               src="./img/team/team-3.jpg"
               alt="barbers work"
@@ -201,7 +208,7 @@
             <h3>Alan Black</h3>
             <p>Extreme Barber</p>
           </li>
-          <li>
+          <li class="team-item">
             <h3></h3>
             <p></p>
           </li>
